@@ -133,6 +133,8 @@ rankall <- function(outcome_name, num = "best") {
   as.character(sub_outcome$Hospital.Name[num])
 }
 
-
+new_function <- function(x){
+  print(x)
+}
 
 
